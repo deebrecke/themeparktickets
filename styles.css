@@ -1,0 +1,55 @@
+/*
+    Web page styles for the theme park tickets calculator page.
+    Author: Dee Brecke
+    File:styles/styles.css
+    Date:1/12/2022
+*/
+
+/* outer background color*/
+html{
+    background-color: #ffcb03;
+}
+
+header, footer{
+    text-align: center;
+    border: 2px solid black;
+}
+
+h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+body{
+    width: 800px;
+    margin:auto;
+    background-color: rgb(248, 207, 119);
+    border: 4px solid black;
+}
+
+form{
+    margin: auto;
+    width: 400px;
+}
+
+/* style the user inputs */
+input, select{
+    width: 100%;
+    padding: 10px 10px;
+    margin: 10px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+label{
+    display: block
+}
+
+/*style the "calculate" button*/
+button{
+    margin-left: 150px;
+    font-size: x-large;
+    border-radius: 4px;
+    border: 2px solid black;
+}

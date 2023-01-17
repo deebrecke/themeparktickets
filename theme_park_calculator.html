@@ -1,0 +1,66 @@
+<!--
+    This file contains the markup for the theme park
+    tickets calculator.
+    Author: Dee Brecke
+    File: theme_park_calculator.html
+    Date: 1/12/2022
+-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Theme Park Ticket Calculator</title>
+        <link rel="stylesheet" href="styles/styles.css">
+    </head>
+    <body>
+        <header>
+            <img src="images/tp_top.png" alt="Picture of a circus or carnival">
+        </header>
+        <h1>Theme Park Ticket Calulator</h1>
+        <!-- user inputs: two text boxes and two drop down menus all in one form-->
+        <form>
+            <label>Adult Cost</label>
+            <input type=number id="adult-cost" placeholder="$35.00"><br>
+
+            <label>Child Cost</label>
+            <input type=number  id="child-cost" placeholder="$20.00"><br>
+
+            <label>Adult Tickets</label>
+                <select id="adult-num">
+                    <option value = "0">0 tickets</option>
+                    <option value = "1">1 ticket</option>
+                    <option value = "2">2 tickets</option>
+                    <option value = "3">3 tickets</option>
+                    <option value = "4">4 tickets</option>
+                    <option value = "5">5 tickets</option>
+                    <option value = "6">6 tickets</option>
+                    <option value = "7">7 tickets</option>
+                    <option value = "8">8 tickets</option>
+                    <option value = "9">9 tickets</option>
+                    <option value = "10">10 tickets</option>
+                </select><br>
+
+            <label>Child Tickets</label>
+            <select id="child-num">
+                <option value = "0">0 tickets</option>
+                <option value = "1">1 ticket</option>
+                <option value = "2">2 tickets</option>
+                <option value = "3">3 tickets</option>
+                <option value = "4">4 tickets</option>
+                <option value = "5">5 tickets</option>
+                <option value = "6">6 tickets</option>
+                <option value = "7">7 tickets</option>
+                <option value = "8">8 tickets</option>
+                <option value = "9">9 tickets</option>
+                <option value = "10">10 tickets</option>
+            </select><br><br>
+            <!--calculation formula is in javascript file-->
+            <button>Calculate!</button>
+        </form>
+        <h1 id="total-cost">Total cost for tickets: </h1>
+        <footer>
+            <img src="images/tp_bottom.png" alt = "Picture of another circus/carnival">
+        </footer>
+    <script src="scripts/tickets.js"></script>
+    </body>
+</html>
